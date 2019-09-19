@@ -1,0 +1,56 @@
+QMainWindow{background-color:rgb(248,248,255)}
+
+QToolButton {
+border: 0px solid #333333;
+border-radius:5px;
+min-width: 50px;
+min-height: 50px;
+font-family: Microsoft YaHei;
+font-size: 10pt;
+font-color: #1E1E1E;
+}
+
+QToolButton:hover {
+border: 1px solid #E4E4E4;
+}
+
+QToolButton:pressed {
+border: 1px solid #E4E4E4;
+border-color: #E4E4E4;
+}
+
+QToolButton:disabled {
+border: 1px solid #E4E4E4;
+color: #333333;
+}
+
+QToolButton#search_button {
+border: 0px solid #333333;
+background-color: #00C7E6;
+border-radius:5px;
+min-width: 60px;
+min-height: 32px;
+}
+
+QToolButton#add_project_button {
+border: 1px solid #E4E4E4;
+}
+
+QLineEdit#search_edit {
+border: 1px solid #333333;
+border-radius:5px;
+}
+
+
+QLabel#case_manage {
+font-family: Microsoft YaHei;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+color: #00C7E6
+}
+
+QHeaderView::section{
+    background-color: #DEF7FC;
+}
+

@@ -1,0 +1,22 @@
+*.py[co]
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+.DS_Store
+.idea
+tags
+
+#Emacs
+.#*
+venv/
+
+# Pycharm
+.idea
+
+#ss
+testframework/source/logs/*.log
+apps
