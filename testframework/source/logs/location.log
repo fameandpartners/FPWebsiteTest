@@ -1,0 +1,188 @@
+INFO - 2019-06-25 16:39:40,098 -   -* The main process test begins
+INFO - 2019-06-25 16:43:04,904 -   -* The main process test begins
+INFO - 2019-06-25 16:43:08,649 -   -* Create New Project Successfully
+INFO - 2019-06-25 16:43:10,700 -   -* Click Menu [设置面片上下身属性]
+INFO - 2019-06-25 16:43:10,702 -   -* Click Menu [设置顶点上下身属性]
+INFO - 2019-06-25 16:43:12,717 -   -* Lock Tolerance level [0.014894]
+INFO - 2019-06-25 16:43:12,723 -   -* Click Button [设为上身部位点]
+INFO - 2019-06-25 16:43:12,723 -   -* Set Upper Body Point Successfully
+INFO - 2019-06-25 16:43:12,726 -   -* Click Button [设为上身部位点]
+INFO - 2019-06-25 16:43:12,726 -   -* Set Upper Body Point Successfully
+INFO - 2019-06-25 16:43:12,727 -   -* Click Button [设为上身部位点]
+INFO - 2019-06-25 16:43:12,727 -   -* Set Upper Body Point Successfully
+INFO - 2019-06-25 16:43:12,729 -   -* Click Button [设为上身部位点]
+INFO - 2019-06-25 16:43:12,729 -   -* Set Upper Body Point Successfully
+INFO - 2019-06-25 16:43:14,750 -   -* Lock Tolerance level [-1]
+INFO - 2019-06-25 16:43:14,750 -   -* Lock Tolerance level [0.00380784]
+INFO - 2019-06-25 16:43:16,767 -   -* Click Button [设为上身部位点]
+INFO - 2019-06-25 16:43:16,767 -   -* Set Upper Body Point Successfully
+INFO - 2019-06-25 16:43:16,769 -   -* Click Button [设为混合类型部位点]
+INFO - 2019-06-25 16:43:16,769 -   -* Set Mixed Type Point Successfully
+INFO - 2019-06-25 16:43:16,772 -   -* Click Button [设为混合类型部位点]
+INFO - 2019-06-25 16:43:16,772 -   -* Set Mixed Type Point Successfully
+INFO - 2019-06-25 16:43:18,783 -   -* Click Button [设为下身部位点]
+INFO - 2019-06-25 16:43:18,783 -   -* Set Lower Body Point Successfully
+INFO - 2019-06-25 16:43:18,785 -   -* Click Button [设为下身部位点]
+INFO - 2019-06-25 16:43:18,785 -   -* Set Lower Body Point Successfully
+INFO - 2019-06-25 16:43:20,799 -   -* Click Menu [设置面片对称性]
+INFO - 2019-06-25 16:43:20,802 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,802 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,806 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,806 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,809 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,809 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,811 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,812 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,814 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,814 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,815 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,815 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,819 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,819 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,822 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,822 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:20,825 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:20,825 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:22,840 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:22,841 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:22,844 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:22,844 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:22,847 -   -* Click Button [设置为对称面片]
+INFO - 2019-06-25 16:43:22,847 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-06-25 16:43:24,884 -   -* Click Menu [新建订单]
+INFO - 2019-06-25 16:43:26,911 -   -* Click Button [参数模式]
+INFO - 2019-06-25 16:43:26,914 -   -* Click Button [量体衣模式]
+INFO - 2019-06-25 16:43:26,921 -   -* Click Button [参数模式]
+INFO - 2019-06-25 16:43:30,975 -   -* Click Button [下一步]
+INFO - 2019-06-25 16:43:32,984 -   -* Lock Tolerance level [0.148811]
+INFO - 2019-06-25 16:43:33,003 -   -* Click Button [添加面片]
+INFO - 2019-06-25 16:43:33,198 -   -* Click Button [完成]
+INFO - 2019-06-25 16:43:35,240 -   -* this is compare result: [0, '测试点 [第一次添加订单] 数据比对成功']
+INFO - 2019-06-25 16:43:35,240 -   -* 测试点 [第一次添加订单] 数据比对成功
+INFO - 2019-06-25 16:43:37,302 -   -* Click Menu [绑定约束]
+INFO - 2019-06-25 16:43:37,302 -   -* Lock Tolerance level [0.0135741]
+INFO - 2019-06-25 16:43:38,753 -   -* Click Menu [浪弯形状保持约束]
+INFO - 2019-06-25 16:43:38,936 -   -* Click Button [增加约束]
+INFO - 2019-06-25 16:43:38,985 -   -* Click Menu [浪弯形状保持约束]
+INFO - 2019-06-25 16:43:39,163 -   -* Click Button [增加约束]
+INFO - 2019-06-25 16:43:39,164 -   -* Lock Tolerance level [0.0129783]
+INFO - 2019-06-25 16:43:41,273 -   -* Click Menu [罩杯旋转约束]
+INFO - 2019-06-25 16:43:41,335 -   -* Click Button [参考点顺时针旋转]
+INFO - 2019-06-25 16:43:41,536 -   -* Click Button [应用]
+INFO - 2019-06-25 16:43:43,588 -   -* Click Menu [罩杯调整约束]
+INFO - 2019-06-25 16:43:43,936 -   -* Click Button [添加\修改约束]
+INFO - 2019-06-25 16:43:46,006 -   -* Click Menu [点平滑约束]
+INFO - 2019-06-25 16:43:46,188 -   -* Click Button [增加约束]
+INFO - 2019-06-25 16:43:46,368 -   -* Click Button [增加约束]
+INFO - 2019-06-25 16:43:46,407 -   -* Click Menu [设置固定点]
+INFO - 2019-06-25 16:43:46,587 -   -* Click Button [设置固定点]
+INFO - 2019-06-25 16:43:46,769 -   -* Click Button [设置固定点]
+INFO - 2019-06-25 16:43:46,951 -   -* Click Button [设置固定点]
+INFO - 2019-06-25 16:43:47,134 -   -* Click Button [设置固定点]
+INFO - 2019-06-25 16:43:47,184 -   -* Click Menu [新建订单]
+INFO - 2019-06-25 16:43:47,199 -   -* Click Button [参数模式]
+INFO - 2019-06-25 16:43:47,203 -   -* Click Button [量体衣模式]
+INFO - 2019-06-25 16:43:47,207 -   -* Click Button [参数模式]
+INFO - 2019-06-25 16:43:51,308 -   -* Click Button [下一步]
+INFO - 2019-06-25 16:43:51,308 -   -* Lock Tolerance level [0.118439]
+INFO - 2019-06-25 16:43:51,335 -   -* Click Button [添加面片]
+INFO - 2019-06-25 16:43:56,381 -   -* Click Button [完成]
+INFO - 2019-06-25 16:43:58,717 -   -* Save Project File [F:\project\THAutoTestFrameWork1.0\apps/MTM\case/testdata/mtm-base/save_mtm/2019-06-25-16-43-58.m2m] Successfully
+INFO - 2019-06-25 16:44:00,723 -   -* this is compare result: [0, '测试点 [第二次添加订单] 数据比对成功']
+INFO - 2019-06-25 16:44:00,723 -   -* 测试点 [第二次添加订单] 数据比对成功
+INFO - 2019-07-08 15:37:38,420 -   -* The main process test begins
+INFO - 2019-07-08 17:22:30,833 -   -* The main process test begins
+INFO - 2019-07-08 17:22:54,976 -   -* Lock Tolerance level [-1]
+INFO - 2019-07-08 17:23:47,016 -   -* The main process test begins
+INFO - 2019-07-11 09:53:19,014 -   -* The main process test begins
+INFO - 2019-07-12 17:09:34,795 -   -* The main process test begins
+INFO - 2019-07-12 17:09:39,150 -   -* Create New Project Successfully
+INFO - 2019-07-12 17:09:41,199 -   -* Click Menu [设置面片上下身属性]
+INFO - 2019-07-12 17:09:41,202 -   -* Click Menu [设置顶点上下身属性]
+INFO - 2019-07-12 17:09:43,217 -   -* Lock Tolerance level [0.014894]
+INFO - 2019-07-12 17:09:43,230 -   -* Click Button [设为上身部位点]
+INFO - 2019-07-12 17:09:43,230 -   -* Set Upper Body Point Successfully
+INFO - 2019-07-12 17:09:43,232 -   -* Click Button [设为上身部位点]
+INFO - 2019-07-12 17:09:43,232 -   -* Set Upper Body Point Successfully
+INFO - 2019-07-12 17:09:43,234 -   -* Click Button [设为上身部位点]
+INFO - 2019-07-12 17:09:43,234 -   -* Set Upper Body Point Successfully
+INFO - 2019-07-12 17:09:43,236 -   -* Click Button [设为上身部位点]
+INFO - 2019-07-12 17:09:43,236 -   -* Set Upper Body Point Successfully
+INFO - 2019-07-12 17:09:45,250 -   -* Lock Tolerance level [-1]
+INFO - 2019-07-12 17:09:45,250 -   -* Lock Tolerance level [0.00380784]
+INFO - 2019-07-12 17:09:47,265 -   -* Click Button [设为上身部位点]
+INFO - 2019-07-12 17:09:47,265 -   -* Set Upper Body Point Successfully
+INFO - 2019-07-12 17:09:47,267 -   -* Click Button [设为混合类型部位点]
+INFO - 2019-07-12 17:09:47,267 -   -* Set Mixed Type Point Successfully
+INFO - 2019-07-12 17:09:47,269 -   -* Click Button [设为混合类型部位点]
+INFO - 2019-07-12 17:09:47,270 -   -* Set Mixed Type Point Successfully
+INFO - 2019-07-12 17:09:49,282 -   -* Click Button [设为下身部位点]
+INFO - 2019-07-12 17:09:49,282 -   -* Set Lower Body Point Successfully
+INFO - 2019-07-12 17:09:49,284 -   -* Click Button [设为下身部位点]
+INFO - 2019-07-12 17:09:49,284 -   -* Set Lower Body Point Successfully
+INFO - 2019-07-12 17:09:51,303 -   -* Click Menu [设置面片对称性]
+INFO - 2019-07-12 17:09:51,308 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,308 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,311 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,311 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,314 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,314 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,316 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,317 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,319 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,319 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,322 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,322 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,324 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,324 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,328 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,328 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:51,331 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:51,331 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:53,348 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:53,349 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:53,351 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:53,351 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:53,353 -   -* Click Button [设置为对称面片]
+INFO - 2019-07-12 17:09:53,353 -   -* Set Symmetrical Patch Successfully
+INFO - 2019-07-12 17:09:55,397 -   -* Click Menu [新建订单]
+INFO - 2019-07-12 17:09:57,442 -   -* Click Button [参数模式]
+INFO - 2019-07-12 17:09:57,446 -   -* Click Button [量体衣模式]
+INFO - 2019-07-12 17:09:57,450 -   -* Click Button [参数模式]
+INFO - 2019-07-12 17:10:01,503 -   -* Click Button [下一步]
+INFO - 2019-07-12 17:10:03,514 -   -* Lock Tolerance level [0.148811]
+INFO - 2019-07-12 17:10:03,535 -   -* Click Button [添加面片]
+INFO - 2019-07-12 17:10:03,731 -   -* Click Button [完成]
+INFO - 2019-07-12 17:10:05,795 -   -* this is compare result: [0, '测试点 [第一次添加订单] 数据比对成功']
+INFO - 2019-07-12 17:10:05,796 -   -* 测试点 [第一次添加订单] 数据比对成功
+INFO - 2019-07-12 17:10:07,867 -   -* Click Menu [绑定约束]
+INFO - 2019-07-12 17:10:07,867 -   -* Lock Tolerance level [0.0135741]
+INFO - 2019-07-12 17:10:09,365 -   -* Click Menu [浪弯形状保持约束]
+INFO - 2019-07-12 17:10:09,551 -   -* Click Button [增加约束]
+INFO - 2019-07-12 17:10:09,598 -   -* Click Menu [浪弯形状保持约束]
+INFO - 2019-07-12 17:10:09,782 -   -* Click Button [增加约束]
+INFO - 2019-07-12 17:10:09,783 -   -* Lock Tolerance level [0.0129783]
+INFO - 2019-07-12 17:10:11,904 -   -* Click Menu [罩杯旋转约束]
+INFO - 2019-07-12 17:10:11,967 -   -* Click Button [参考点顺时针旋转]
+INFO - 2019-07-12 17:10:12,171 -   -* Click Button [应用]
+INFO - 2019-07-12 17:10:14,207 -   -* Click Menu [罩杯调整约束]
+INFO - 2019-07-12 17:10:14,571 -   -* Click Button [添加\修改约束]
+INFO - 2019-07-12 17:10:16,618 -   -* Click Menu [点平滑约束]
+INFO - 2019-07-12 17:10:16,810 -   -* Click Button [增加约束]
+INFO - 2019-07-12 17:10:17,020 -   -* Click Button [增加约束]
+INFO - 2019-07-12 17:10:17,066 -   -* Click Menu [设置固定点]
+INFO - 2019-07-12 17:10:17,250 -   -* Click Button [设置固定点]
+INFO - 2019-07-12 17:10:17,431 -   -* Click Button [设置固定点]
+INFO - 2019-07-12 17:10:17,616 -   -* Click Button [设置固定点]
+INFO - 2019-07-12 17:10:17,839 -   -* Click Button [设置固定点]
+INFO - 2019-07-12 17:10:17,885 -   -* Click Menu [新建订单]
+INFO - 2019-07-12 17:10:17,903 -   -* Click Button [参数模式]
+INFO - 2019-07-12 17:10:17,911 -   -* Click Button [量体衣模式]
+INFO - 2019-07-12 17:10:17,917 -   -* Click Button [参数模式]
+INFO - 2019-07-12 17:10:21,990 -   -* Click Button [下一步]
+INFO - 2019-07-12 17:10:21,990 -   -* Lock Tolerance level [0.118439]
+INFO - 2019-07-12 17:10:22,018 -   -* Click Button [添加面片]
+INFO - 2019-07-12 17:10:27,084 -   -* Click Button [完成]
+INFO - 2019-07-12 17:10:29,413 -   -* Save Project File [F:\project\THAutoTestFrameWork1.0\apps/MTM\case/testdata/mtm-base/save_mtm/2019-07-12-17-10-29.m2m] Successfully
+INFO - 2019-07-12 17:10:31,428 -   -* this is compare result: [0, '测试点 [第二次添加订单] 数据比对成功']
+INFO - 2019-07-12 17:10:31,428 -   -* 测试点 [第二次添加订单] 数据比对成功
