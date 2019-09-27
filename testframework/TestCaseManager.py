@@ -6,6 +6,7 @@ import sys
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
+sys.path.append(curPath)
 from testframework.source.configs.readini import ConfigIni
 from testframework.source.construct_project.create_case_demo import CreateCaseDemo
 from testframework.source.construct_project.get_project_path import PathExistProject
