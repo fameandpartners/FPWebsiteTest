@@ -64,7 +64,9 @@ class StartProject:
             # t1.setDaemon(True)
             # t1.start()
             try:
-
+                current_path = os.path.dirname(__file__)
+                project_path = os.path.dirname(os.path.dirname(os.path.dirname(current_path)))
+                sys.path.append(project_path)
                 case_module = importlib.import_module(dir_path % case_name, package='apps')
                 # case_module = importlib.import_module(".FPwebsiteTest.case.runcase.fpwebsite-Homepage", package='apps')
             except Exception as e:
