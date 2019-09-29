@@ -68,8 +68,8 @@ class StartProject:
             # t1.start()
             try:
                 dir_path = '.apps.FPwebsiteTest.case.runcase.%s'
-                # case_module = importlib.import_module(dir_path % case_name, package='apps')
-                case_module = importlib.import_module(dir_path % case_name, package='FPWebsiteTest')
+                case_module = importlib.import_module(dir_path % case_name, package='apps')
+                # case_module = importlib.import_module(dir_path % case_name, package='FPWebsiteTest')
                 # case_module = importlib.import_module(".FPwebsiteTest.case.runcase.fpwebsite-Homepage", package='apps')
             except Exception as e:
                 self.logger.exception(e)
