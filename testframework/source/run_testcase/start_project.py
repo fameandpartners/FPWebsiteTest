@@ -66,7 +66,11 @@ class StartProject:
             try:
                 current_path = os.path.dirname(__file__)
                 project_path = os.path.dirname(os.path.dirname(os.path.dirname(current_path)))
+                apps_path = project_path + '/apps'
                 sys.path.append(project_path)
+                sys.path.append(apps_path)
+                print(project_path)
+                print(current_path)
                 case_module = importlib.import_module(dir_path % case_name, package='apps')
                 # case_module = importlib.import_module(".FPwebsiteTest.case.runcase.fpwebsite-Homepage", package='apps')
             except Exception as e:
