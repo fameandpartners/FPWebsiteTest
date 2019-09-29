@@ -3,6 +3,9 @@
 import importlib
 import os
 import sys
+current_path = os.path.dirname(__file__)
+project_path = os.path.dirname(os.path.dirname(os.path.dirname(current_path)))
+sys.path.append(project_path)
 import threading
 from subprocess import call, TimeoutExpired
 import time
@@ -64,10 +67,9 @@ class StartProject:
             # t1.setDaemon(True)
             # t1.start()
             try:
-                current_path = os.path.dirname(__file__)
-                project_path = os.path.dirname(os.path.dirname(os.path.dirname(current_path)))
-                sys.path.append(project_path)
-                case_module = importlib.import_module(dir_path % case_name, package='apps')
+                dir_path = '.apps.FPwebsiteTest.case.runcase'
+                # case_module = importlib.import_module(dir_path % case_name, package='apps')
+                case_module = importlib.import_module(dir_path % case_name, package='FPWebsiteTest')
                 # case_module = importlib.import_module(".FPwebsiteTest.case.runcase.fpwebsite-Homepage", package='apps')
             except Exception as e:
                 self.logger.exception(e)
