@@ -26,8 +26,8 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python3 -m venv venv
-            . venv/bin/activate
+            python3 -m venv /home/circleci/FPWebsiteTest/venv
+            . /home/circleci/FPWebsiteTest/venv/bin/activate
             pip install -r requirements.txt
       - save_cache:
           paths:
@@ -42,6 +42,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
+            . /home/circleci/FPWebsiteTest/venv/bin/activate
             chmod 777 ./apps/FPwebsiteTest/src/function/phantomjs
-            python ./testframework/TestCaseManager.py
+            python3 ./testframework/TestCaseManager.py
