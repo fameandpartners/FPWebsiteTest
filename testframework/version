@@ -1,0 +1,5 @@
+THAutoTestFrameWork0.0.2.0826
+
+0.0.2.0826,注意事项：
+1，文件启动入口为 TestCaseManager.py
+2，配置文件更改为 absolute.ini， 修改配置文件不要加 ''
