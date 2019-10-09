@@ -155,5 +155,4 @@ if __name__ == '__main__':
         case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage.py',
                      'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
     te.start_(case_list=case_list)
-    te.start_(case_list=case_list)
 
