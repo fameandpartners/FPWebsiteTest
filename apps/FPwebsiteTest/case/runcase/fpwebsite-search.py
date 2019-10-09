@@ -59,7 +59,7 @@ def main(argv):
     driver.execute_script('arguments[0].click()', search_btn)
     text_xp = find_element(
         driver,
-        '/html[1]/body[1]/div[1]/div[1]/header[1]/nav[1]/ul[2]/div[1]',
+        '/html[1]/body[1]/div[3]/div[1]/header[1]/nav[1]/ul[2]/div[1]',
         'xpath',
         log)
     ActionChains(driver).move_to_element(text_xp).send_keys('red').perform()
