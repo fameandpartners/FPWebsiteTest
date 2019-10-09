@@ -10,6 +10,9 @@ from apps.FPwebsiteTest.src.function.FP_function import *
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+
+
+
 warnings.filterwarnings("ignore")
 
 # 脚本信息
@@ -74,7 +77,7 @@ def main(argv):
 
     shop_all = {
         "//div[@class='jsx-81871819 HeaderMegaMenuContainer']//div[1]//ul[1]//li[1]//a[1]": base_url + 'dresses',
-        '//div[2]//ul[1]//li[1]//a[1]': base_url + 'clothing'}
+        '//div[@id="portal-root"]//div[2]//ul[1]//li[1]//a[1]': base_url + 'clothing'}
 
     # start = time()
     driver = start_driver(3, log)
@@ -141,6 +144,7 @@ def main(argv):
                     log,
                     '菜单栏名称Shop All显示正确',
                     '菜单栏名称Shop All显示错误')
+                sleep(0.5, log)
                 try:
                     click(driver, link, 'xpath', log)
                 except TimeoutException:
@@ -153,7 +157,7 @@ def main(argv):
                     check_url(driver, shop_all[link], log)
                 # click(driver, link, 'xpath', log)
                 # check_url(driver, shop_all[link], log)
-                sleep(0.5, log)
+                sleep(2, log)
         elif kind == 'Weddings':
             for link in weddings_elements:
                 xp = driver.find_element_by_link_text(kind)

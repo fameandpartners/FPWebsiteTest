@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 import warnings
+import random
 import sys
 import os
 current_path = os.path.dirname(__file__)
 project_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(current_path))))
 sys.path.append(project_path)
-import random
 from apps.FPwebsiteTest.src.function.FP_function import *
+
 
 warnings.filterwarnings("ignore")
 

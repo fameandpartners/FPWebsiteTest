@@ -86,53 +86,22 @@ def main(argv):
         click(driver, "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[4]/ul[1]/li[8]/a[1]", 'xpath', log)
         check_url(driver, base_url + 'contact', log)
 
-        #
-        # #文字导航
 
-        # 测试网址
-        click(driver, "/html[1]/body[1]/div[1]/div[1]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        click(driver, "Fame & Partners X Atlanta de Cadenet Taylor", 'link_text', log)
-        check_url(driver, base_url + 'atlanta', log)
-        # click(driver, "/html[1]/body[1]/div[3]/div[1]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-        #
-        click(driver, "Express Delivery", 'link_text', log)
-        check_url(driver, base_url + 'dresses/express-delivery-dresses', log)
+        # # 测试网址
+        # click(driver, "/html[1]/body[1]/div[1]/div[1]/div[1]/span[1]/p[1]/span[1]/a[1]", 'xpath', log)
+        # check_url(driver, base_url + 'dresses/summer-pre-fall', log)
         # click(driver, "/html[1]/body[1]/div[3]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-
-        click(driver, "Summer", 'link_text', log)
-        check_url(driver, base_url + 'dresses/spring-summer', log)
-        # click(driver, "/html[1]/body[1]/div[3]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-
-        click(driver, "Wedding Guests", 'link_text', log)
-        check_url(driver, base_url + 'dresses/wedding-guests', log)
-        # click(driver, "/html[1]/body[1]/div[3]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-
-        click(driver, "Evening Gowns", 'link_text', log)
-        check_url(driver, base_url + 'dresses/evening', log)
-        # click(driver, "/html[1]/body[1]/div[3]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-
-        # 测试网址
-        click(driver, "/html[1]/body[1]/div[1]/div[1]/div[1]/span[1]/p[1]/span[1]/a[1]", 'xpath', log)
-        check_url(driver, base_url + 'dresses/express-delivery-dresses', log)
-        # click(driver, "/html[1]/body[1]/div[3]/header[1]/nav[1]/a[1]/*", 'xpath', log)
-        back(driver, log)
-        #
+        # back(driver, log)
         # # 切换城市
 
         # 测试网址
         select = driver.find_element_by_xpath(
             "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[6]/form[1]/div[1]/select[1]")
         select = Select(select)
-        select.select_by_index(1)
+        select.select_by_index(0)
         time.sleep(5)
 
         # 关闭Facebook
-
         # 测试网址
         click(driver, "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[3]/div[1]/a[1]/*", 'xpath', log)
         windows = driver.current_window_handle  # 定位当前页面句柄
@@ -148,7 +117,7 @@ def main(argv):
         # 关闭twitter
 
         # 测试网址
-        click(driver, "/html[1]/body[1]/div[3]/div[1]/footer[1]/div[1]/div[3]/div[1]/a[3]/*", 'xpath', log)
+        click(driver, "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[3]/div[1]/a[3]/*", 'xpath', log)
         windows = driver.current_window_handle  # 定位当前页面句柄
         driver.switch_to.window(windows)
         time.sleep(5)

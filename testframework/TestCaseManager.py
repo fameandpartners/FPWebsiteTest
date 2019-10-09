@@ -6,7 +6,6 @@ import sys
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
-sys.path.append(curPath)
 from testframework.source.configs.readini import ConfigIni
 from testframework.source.construct_project.create_case_demo import CreateCaseDemo
 from testframework.source.construct_project.get_project_path import PathExistProject
@@ -146,7 +145,7 @@ class TestCaseManager:
 if __name__ == '__main__':
     project_name = 'FPwebsiteTest'
     te = TestCaseManager(project_name)
-    case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage.py', 'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
+    case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage_qa4.py', 'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
     # case_list = ['fpwebsite-Homepage.py', 'fpwebsite-filter.py', 'fpwebsite-menuclassify.py', 'fpwebsite-ordering.py',
     #                 'fpwebsite-search.py', 'fpwebsite-shoppingbag.py', 'fpwebsite-productdetails.py']
     te.start_(case_list=case_list)
