@@ -148,6 +148,7 @@ if __name__ == '__main__':
     te = TestCaseManager(project_name)
     branch = get_git_branch()
     print('当前分支：%s' % branch)
+    case_list = []
     if 'qa4' in branch:
         case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage_qa4.py',
                      'fpwebsite-search_qa4.py', 'fpwebsite-menuclassify_qa4.py']
