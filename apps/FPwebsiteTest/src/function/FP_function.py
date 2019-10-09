@@ -1,3 +1,4 @@
+import subprocess
 import sys
 import time
 import os
@@ -84,8 +85,25 @@ def init_fp(argv):
     _file_name = os.path.splitext(file_name_with_suffix)[0]
     log = Logger(log_path=file_path, log_name=_file_name, use_console=True)
     get_return_code(log_obj=log, msg='The main process test begins')
-    url = ini.get_str(section='FPWEBSITETEST', option='url')
+    branch = get_git_branch()
+    if 'qa4' in branch:
+        url = 'https://qa4.fameandpartners.com/'
+    elif 'product' or 'master' in branch:
+        url = 'https://www.fameandpartners.com/'
+    # url = ini.get_str(section='FPWEBSITETEST', option='url')
     return log, run_case_name, url
+
+
+def get_git_branch():
+    # 获取gitbranch
+    branches_str = subprocess.check_output(['git', 'branch'])
+    branches = str(branches_str, encoding='utf-8').split('\n')
+    now_branch = ''
+    for branch in branches[0:-1]:
+        if '*' in branch:
+            now_branch = branch
+            break
+    return now_branch
 
 #打开浏览器
 def start_driver(way, _log, browser='Firefox'):

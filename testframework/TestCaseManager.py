@@ -21,6 +21,7 @@ from testframework.source.construct_project.construct_dir import ConstructDir
 from testframework.source.utils.sentry.sentry_ import Sentry
 from testframework.source.utils.timer import Timers
 from testframework.source.utils.verifycase import VerifyTestCase
+from apps.FPwebsiteTest.src.function.FP_function import get_git_branch
 
 current_path = os.path.dirname(__file__)
 source_logs_path = os.path.join(current_path, 'source/logs/')
@@ -145,8 +146,14 @@ class TestCaseManager:
 if __name__ == '__main__':
     project_name = 'FPwebsiteTest'
     te = TestCaseManager(project_name)
-    case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage_qa4.py', 'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
-    # case_list = ['fpwebsite-Homepage.py', 'fpwebsite-filter.py', 'fpwebsite-menuclassify.py', 'fpwebsite-ordering.py',
-    #                 'fpwebsite-search.py', 'fpwebsite-shoppingbag.py', 'fpwebsite-productdetails.py']
+    branch = get_git_branch()
+    print('当前分支：%s' % branch)
+    if 'qa4' in branch:
+        case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage_qa4.py',
+                     'fpwebsite-search_qa4.py', 'fpwebsite-menuclassify_qa4.py']
+    elif 'product' or 'master' in branch:
+        case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage.py',
+                     'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
+    te.start_(case_list=case_list)
     te.start_(case_list=case_list)
 
