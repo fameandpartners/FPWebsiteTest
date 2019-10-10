@@ -196,9 +196,7 @@ def check_url(driver, url, _log):
 
 #登录操作
 def log_in(driver, Email, pwd, _log):
-    url = ini.get_str(section='FPWEBSITETEST', option='url')
     click(driver, 'Log In / Sign Up', 'link_text', _log)
-    check_url(driver, url + 'account/login', _log)
     input_text(driver, "//input[@placeholder='Email']", 'xpath', Email, _log)
     get_return_code(log_obj=_log, msg='user account is ' + Email)
     input_text(driver, "//input[@placeholder='Password']", 'xpath', pwd, _log)
