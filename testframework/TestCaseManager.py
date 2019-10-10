@@ -149,10 +149,10 @@ if __name__ == '__main__':
     branch = get_git_branch()
     print('当前分支：%s' % branch)
     case_list = []
-    if 'qa4' in branch:
+    if 'qa4' or 'develop' in branch:
         case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage_qa4.py',
                      'fpwebsite-search_qa4.py', 'fpwebsite-menuclassify_qa4.py']
-    elif 'product' or 'master' in branch:
+    elif 'product' or 'master' or 'pr' in branch:
         case_list = ['fpwebsite-filter.py', 'fpwebsite-Homepage.py',
                      'fpwebsite-search.py', 'fpwebsite-menuclassify.py']
     te.start_(case_list=case_list)

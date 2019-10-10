@@ -86,9 +86,9 @@ def init_fp(argv):
     log = Logger(log_path=file_path, log_name=_file_name, use_console=True)
     get_return_code(log_obj=log, msg='The main process test begins')
     branch = get_git_branch()
-    if 'qa4' in branch:
+    if 'qa4' or 'develop' in branch:
         url = 'https://qa4.fameandpartners.com/'
-    elif 'product' or 'master' in branch:
+    elif 'product' or 'master' or 'pr' in branch:
         url = 'https://www.fameandpartners.com/'
     # url = ini.get_str(section='FPWEBSITETEST', option='url')
     return log, run_case_name, url
